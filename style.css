@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #FAF3E0;
     color: #343a40;
     padding: 20px;
 }
@@ -76,14 +76,14 @@ form button:hover {
 
 #search-task {
     padding: 10px;
-    width: 100%;
+    width: calc(100% - 20px); /* Adjust width for padding */
     margin-bottom: 20px;
     border: 1px solid #ced4da;
     border-radius: 4px;
 }
 
 #productivity-dashboard {
-    background-color: #e9ecef;
+    background-color: #f8f9fa; /* Lighter Gray */
     padding: 20px;
     border-radius: 8px;
 }
